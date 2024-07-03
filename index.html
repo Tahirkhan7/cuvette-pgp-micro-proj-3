@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="tabs">
+          <div class="tab-header">
+            <h1>Calculator</h1>
+          </div>
+          <div class="tab-input">
+            <input type="text" name="inp" class="inp" disabled />
+          </div>
+          <div class="tab-btns">
+            <div class="rows">
+            <div class="row1">
+              <button class="btn7" onclick="calc('7')">7</button>
+              <button class="btn8" onclick="calc('8')">8</button>
+              <button class="btn9" onclick="calc('9')">9</button>
+              <button class="del" onclick="calc('del')">DEL</button>
+            </div>
+            <div class="row2">
+              <button class="btn4" onclick="calc('4')">4</button>
+              <button class="btn5" onclick="calc('5')">5</button>
+              <button class="btn6" onclick="calc('6')">6</button>
+              <button class="plus" onclick="calc('+')">+</button>
+              
+            </div>
+            <div class="row3">
+                <button class="btn1" onclick="calc('1')">1</button>
+                <button class="btn2" onclick="calc('2')">2</button>
+                <button class="btn3" onclick="calc('3')">3</button>
+                <button class="minus" onclick="calc('-')">-</button>
+              </div>
+              <div class="row4">
+                <button class="dot" onclick="calc('.')">.</button>
+                <button class="btn0" onclick="calc('0')">0</button>
+                <button class="slash" onclick="calc('/')">/</button>
+                <button class="asterisk" onclick="calc('*')">x</button>
+              </div>
+              <div class="row5">
+                <button class="rst" onclick="calc('rst')">RESET</button>
+                <button class="eql" onclick="calc('eql')">=</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
